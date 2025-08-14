@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+           
+        }
+        section{
+          /*  border: 2px solid red;*/
+            height: 100%;
+            width: 100%;
+        }
+        #nav1{
+            /*border: 2px solid red;*/
+            height: 10%;
+            width: 100%;
+           background-color: lavender;
+        }
+        #logo{
+           /* border: 2px solid;*/
+            height: 80%;
+            width: 20%;
+            font-size: 2rem;
+           
+            float: left;
+            padding-left: 3%;
+            padding-top: 1%;
+            background: #5b3ffb;
+background: radial-gradient(circle,rgba(91, 63, 251, 1) 41%, rgba(231, 69, 126, 1) 79%, rgba(252, 70, 107, 1) 100%);
+            background-clip: text;
+            
+            color: transparent;
+
+        }
+        #monu{
+            margin-top: 1%;
+            height: 80%;
+            width: 50%;
+            float: right;
+            /*border: 2px solid blueviolet;*/
+            text-decoration: none;
+
+        }
+        a{
+            text-decoration: none;
+            font-size: 17px;
+            padding-top: 1%;
+        }
+        body{
+            height: 100vh;
+          
+
+        }
+       header{
+       
+        height: 90%;
+        width: 100%;
+        /* border: 2px solid;*/
+         background: #2042a8;
+         background: linear-gradient(70deg,rgba(32, 66, 168, 1) 9%, rgba(149, 76, 208, 1) 36%, rgba(234, 83, 237, 1) 100%);
+         
+         
+    
+
+
+            
+            
+        
+
+        }
+        #box1{
+            margin-top: 0%;
+           /*border: 2px solid red;*/
+            height: 10%;
+            width: 30%;
+            margin-left: 30%;
+            color: azure;
+            text-align: center;
+        }
+        #box2{
+             
+           /*border: 2px solid red;*/
+            height: 30%;
+            width: 50%;
+            margin-left: 20%;
+            color: azure;
+            font-size: 60px;
+             padding-left: 10%;
+
+        }
+        #box3{
+              margin-top: 2%;
+            /*border: 2px solid red;*/
+            height: 20%;
+            width: 50%;
+            margin-left: 20%;
+            color: azure;
+           
+
+        }
+        #box4{
+            margin-left: 40%;
+            width: 15%;
+            
+            border-radius: 20px;
+            height: 8%;
+            border-color: white;
+            opacity: 0.5;
+         
+           
+
+        }
+        .circl{
+            margin-left: 3%;
+            border: 2px solid  white;
+            height: 80px;
+            width: 80px;
+           border-radius: 100%;
+           background-color: white;
+            
+            opacity: 0.1;
+           
+        }
+        .rectangle{
+             margin-left: 3%;
+            border: 2px solid  white;
+            height: 80px;
+            width: 80px;
+           border-radius: 100%;
+           background-color: white;
+            
+            opacity: 0.1;
+            float: right;
+            margin-top: 7%;
+            margin-right: 5%;
+
+
+        }
+        .image{
+            margin-top: 8%;
+             margin-left: 8%;
+            border: 2px solid  white;
+            height: 80px;
+            width: 80px;
+           border-radius: 100%;
+           background-color: white;
+            
+            opacity: 0.1;
+            
+
+
+        }
+        .leval{
+             
+             margin-left: 70%;
+            border: 2px solid  white;
+            height: 80px;
+            width: 80px;
+           border-radius: 30%;
+           background-color: white;
+           
+            
+            opacity: 0.1;
+                
+            }
+            .c1{
+               
+             margin-left: 20%;
+            border: 2px solid  white;
+            height: 80px;
+            width: 80px;
+           border-radius: 30%;
+           background-color: white;
+            
+            opacity: 0.1;
+                
+            }
+            .c2{
+                margin-left: 80%;
+                border: 2px solid white;
+                height: 70px;
+                width: 90px;
+                border-radius: 80%;
+                background-color: white;
+                opacity: 0.3;
+
+            }
+        #sec1{
+          /*  border: 2px solid blue;*/
+            background-color: lavender;
+
+        }
+        #about{
+            padding-top: 1%;
+            height: 10%;
+            width: 100%;
+            /*border: 2px solid;*/
+            text-align: center;
+            font-size: 50px;
+           
+            
+            color: transparent;
+        }
+        #left
+        {
+            /*border: 2px solid red;*/
+            height: 80%;
+            width: 40%;
+            border-radius: 10%;
+            margin-left: 3%;
+            margin-top: 5%;
+            float: left;
+            background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-image: url(https://images.unsplash.com/photo-1595327656903-2f54e37ce09b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODh8fHRlY2h8ZW58MHx8MHx8fDA%3D);
+        }
+        #right{
+           /* border: 2px solid red;*/
+            height: 90%;
+            width: 50%;
+            float: right;
+
+        }
+
+        #one{
+           /* border: 2px solid red;*/
+            height: 20%;
+            margin-top: 3%;
+            padding-left: 4%;
+            font-size: 30px;
+            
+
+                }
+                #two{
+                  /*  border: 2px solid red;*/
+            height: 40%;
+            margin-top: 0%;
+            padding-left: 4%;
+                }
+                #three{
+                     /* border: 2px solid blue;*/
+            height: 30%;
+            margin-top: 3%;
+            padding-left: 4%;
+
+                }
+                .button{
+                    height: 30%;
+                    width: 20%;
+                    border-radius: 25px;
+                    /*color: blue;*/
+                   background-color: white;
+                    margin-left: 1%;
+                    color: #3F5EFB;
+                   
+
+                }
+                #sec2{
+                   /* border: 2px solid red;*/
+                    height: 100%;
+                    width: 100%;
+                     background-color: lavender;
+                    
+
+
+                }
+                #work{
+                     /*border: 2px solid red;*/
+                     height: 10%;
+                     font-size: 55px;
+                     padding-right: 30%;
+                   
+                     
+                     color: darkorchid;
+                    
+
+                }
+                #upper{
+                    margin-left: 7%;
+                    /*border: 2px solid;*/
+                    height: 60%;
+                    width: 80%;
+                    display: flex;
+                   
+                }
+                .project{
+                    margin-left: 2%;
+                    
+                    /*border: 2px solid red;*/
+                    height: 100%;
+                    width: 60%;
+                   
+                   
+
+                }
+                .p1{
+                   /* border: 2px solid blueviolet;*/
+                    height: 40%;
+                   border-radius: 4%;
+                   background-position: center;
+                   background-repeat: no-repeat;
+                   background-size: cover;
+                    
+                    
+
+                }
+                .p2{
+                    /*border: 2px solid  black;*/
+                    height: 45%;
+                    padding-left: 2%;
+                    padding-top: 1%;
+
+                }
+                #st{
+                    font-size: 20px;
+                }
+                .p3{
+                    /* border: 2px solid blueviolet;*/
+                     height: 15%;
+                }
+                .b1{
+                    height: 60%;
+                    border-radius: 15px;
+                    width: 20%;
+                   
+                   background-color: white;
+                    margin-left: 2%;
+                }
+               #project2{
+                margin-top: 1%;
+              /*  border: 2px solid brown;*/
+              height: 28%;
+              margin-left: 7%;
+              width: 80%;
+              display: flex;
+                }
+                .lower{
+                   /* border: 2px solid blue;*/
+                    height: 100%;
+                    width: 37%;
+                    margin-left: 2%;
+                    border-radius: 4%;
+                  background-position: center;
+                  background-repeat: no-repeat;
+                  background-size: cover;
+
+                    
+                }
+                #sec3{
+                    border: 2px solid blue;
+                  height: 100%;
+                  width: 100%;
+                }
+                #boxleval{
+                  /*  border: 2px solid red;*/
+                    height: 90%;
+                    width: 100%;
+                    
+                     background: #2042a8;
+         background: linear-gradient(70deg,rgba(32, 66, 168, 1) 9%, rgba(149, 76, 208, 1) 36%, rgba(234, 83, 237, 1) 100%);
+
+                }
+                #boxleval2{
+                   /* border: 2px solid;*/
+                    height: 10%;
+                   margin-top: -33%;
+                    text-align: center;
+                    font-size: 40px;
+                    color: white;
+
+                }
+                #boxleval3{
+                    
+                  /*  border: 2px solid;*/
+                    height: 15%;
+                       color: white;
+                        text-align: center;
+                        padding-left: 17%;
+
+                    
+                }
+                #boxleval4{
+                    margin-left: 9%;
+                   /* border: 2px solid;*/
+                    height: 60%;
+                    width: 70%;
+                       color: white;
+                       border-radius: 4%;
+                       padding-left: 5%;
+                       
+                        
+                       
+
+
+                }
+                input[type=text]{
+                    width: 40%;
+                    padding: 12px 20px;
+                    margin: 8px;
+                    background-color: darkslateblue;
+                    opacity: 0.5;
+                    border-color: white;
+                   
+                      border-radius: 17px;
+                    
+                }
+                ::placeholder{
+                   color: white;
+                }
+                input[type=email]{
+                    width: 40%;
+                    padding: 12px 20px;
+                    margin: 8px;
+                 
+                    border-color: white;
+                      border-radius: 17px;
+                     
+                      background-color: darkslateblue;
+                      opacity: 0.5;
+
+                }
+                ::placeholder{
+                   color: white;
+                   
+                }
+                #subject{
+
+                
+                    width: 85%;
+                    padding: 12px 20px;
+                    margin: 8px;
+                     border-color: white;
+                    opacity: 0.1;
+                    background-color: darkslateblue;
+                    border-radius: 17px;
+                    opacity: 0.5;
+
+                }
+                ::placeholder{
+                   color: white;
+                   
+                }
+
+                #text{
+              
+                    height: 40%;
+                    background-color: darkslateblue;
+                    opacity: 0.5;
+                      border-radius: 17px;
+                       border-color: white;
+                       padding-top: 2%;
+                }
+                #range{
+                    width: 50%;
+                    height: 7%;
+                   background: #020024;
+background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+                    margin-top: 1%;
+                    margin-left:19%;
+                    border-radius: 17px;
+                    font-size: 1rem;
+                    color: white;
+
+
+
+
+
+
+                }
+                #a1{
+                    margin-top: 1%;
+                    height: 13%;
+                    width: 100%;
+                    border: 2px solid;
+                    background: #020024;
+background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 100%, rgba(0, 212, 255, 1) 100%);
+                }
+                #a2{
+                    margin-top: 1%;
+                   /* border: 2px solid;*/
+                    height: 60%;
+                    width: 30%;
+                    color: white;
+                    margin-left: 3%;
+                    float: left;
+                }
+                #a3{
+                     margin-top: 1%;
+                   /* border: 2px solid;*/
+                    height: 60%;
+                    width: 40%;
+                    float: right;
+                    
+                    color: rgb(66, 32, 32);
+                    margin-left: 2%;
+                   
+
+                }
+                .zero{
+                    width: 3%;
+                    height: 8%;
+                    border-radius: 30%;
+                    border: 2px solid;
+                    margin-left: 46%;
+                    color: white;
+                    margin-top: 2%;
+                }
+              
+
+
+                
+
+    </style>
+</head>
+<body>
+    <section>
+    <nav id="nav1">
+        <div id="logo" >Personal shape</div>
+        <div id="monu">
+            <a href="" style="padding-left: 40%;">Home</a>
+            <a href="" style="padding-left: 10%;">about</a>
+            <a href="" style="padding-left: 10%;">portfolio</a>
+            <a href="" style="padding-left: 10%;">contact</a>
+        </div>
+        </nav>
+        <header>
+            <div class="circl"></div>
+            
+            <div class="rectangle"></div>
+            <div id="box1">CREATIVE DESIGNER</div>
+            <div id="box2"><b>Transforming ideas<br> &nbsp; &nbsp;&nbsp; &nbsp;In to Beautiful <br>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; Experiences </b></div>
+            <div id="box3"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Nulla veritatis ducimus incidunt dolorum minima alias, fuga,<BR><BR> eligendi
+                  tenetur mollitia molestias labore sint aspernatur maxime harum? Aperiam voluptatibus debitis quam maiores.</div>
+            <button id="box4"><b>EXplore my work</b></button>
+           <div class="zero"></div>
+
+
+        </header>
+        </section>
+        <section id="sec1">
+            <div id="about"><ins>About me</ins></div>
+            <div id="left"></div>
+            <div id="right">
+               <div id="one"><b>Passionate about creating meanigful</b><br><b>digital experience</b></div>
+               <div id="two"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim reprehenderit laborum tempora dolorum tempore <br>sequi impedit amet quod perferendis vero veritatis ullam illum magni necessitatibus eaque earum harum, <br><br>voluptatibus accusamus repellendus, sit incidunt eligendi iste aspernatur blanditiis. Est asperiores autem quasi porro provident ipsa, quis temporibus obcaecati? Iusto,<br><br> cumque ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quam officia sed nisi accusamus inventore blanditiis numquam magni nam maiores consectetur, fuga harum odio soluta sapiente deleniti aperiam dolore <br><br>assumenda doloremque corporis voluptatum explicabo commodi quidem. Odio quisquam vitae aliquid cupiditate at omnis hic, ipsa, nesciunt molestiae dolorum ad ea.</p></div>
+               <div id="three">
+                <button  class="button">UL/UX Design</button>
+                <button class="button" style="margin-left: 2%;" > web devlopment</button>
+                <button class="button" style="margin-left: 2%;" > Brand identify</button>
+                <button class="button" style="margin-left: 2%;" > Motion Graphocs</button><br><br>
+                 <button class="button" style="margin-left: 2%;" > Brand identify</button>
+                  <button class="button" style="margin-left: 2%;" > Brand identify</button>
+               </div>
+               
+            </div>
+
+
+        </section>
+        <section id="sec2">
+            <div id="work">Featured Work</div>
+            
+            <div  id="upper">
+            <div class="project">
+                <div class="p1" style="background-image: url(https://images.unsplash.com/photo-1455894127589-22f75500213a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNvbXB1dGVyfGVufDB8fDB8fHww"></div>
+                <div class="p2"> <strong id="st">E-commerce platform</strong><br><br> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim non doloribus repudiandae? Exercitationem quidem repudiandae magni quaerat doloribus perspiciatis, maxime quasi error aliquid omnis cupiditate beatae expedita eveniet rem inventore architecto distinctio eligendi minima! Modi ipsa architecto hic vitae nostrum!</p></div>
+                <div class="p3">
+                    <button class="b1">React</button>
+                    <button class="b1">Node js</button>
+                    <button class="b1">Mongo DB</button>
+                    <button class="b1">Stripe</button>
+
+
+                </div>
+
+
+            </div>
+            <div class="project">
+                <div class="p1" style="background-image: url(https://images.unsplash.com/flagged/photo-1569144654912-5f146d08b98b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8dGVjaCUyMGJhY2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D);"></div>
+                <div class="p2"><strong id="st">Brand Identity System</strong><br><br><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, maxime quos iure quae voluptate blanditiis magni quasi dolorem. Nobis alias quia quidem modi ea ex, atque quibusdam corrupti, dolorum distinctio labore quae impedit vitae dignissimos veritatis expedita accusantium reprehenderit porro?</p></div>
+                <div class="p3">
+                     <button class="b1">lllcritratcr</button>
+                    <button class="b1">photoshop</button>
+                    <button class="b1">figma</button>
+                    <button class="b1">After effects</button>
+                </div>
+            </div>
+            <div class="project">
+                <div class="p1" style="background-image: url(https://images.unsplash.com/photo-1537498425277-c283d32ef9db?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNvbXB1dGVyfGVufDB8fDB8fHww);"  ></div>
+                <div class="p2"> <strong id="st">Mobile App Design</strong><br><br><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium error quasi harum earum! Dicta at numquam praesentium labore et. Obcaecati sequi nobis saepe! Dolorem iure minima pariatur ipsa hic eum ab, repudiandae suscipit harum rerum eius totam nemo ipsum corporis.</p></div>
+                <div class="p3">
+                     <button class="b1">Figma</button>
+                    <button class="b1">Principle</button>
+                    <button class="b1">React </button>
+                    <button class="b1">Lottie</button>
+                </div>
+            </div>
+            </div>
+           <div id="project2">
+            <div class="lower" style="background-image: url(https://media.istockphoto.com/id/2151903370/photo/businesswoman-using-tablet-pc.webp?a=1&b=1&s=612x612&w=0&k=20&c=ik7v2IK_vQpc3DOlFip6dqoPkRPAjM54-8QGStX4cWE=);"></div>
+             <div class="lower" style="background-image: url(https://media.istockphoto.com/id/1979289147/photo/data-analysis-science-and-big-data-with-ai-technology-analyst-or-scientist-uses-a-computer.webp?a=1&b=1&s=612x612&w=0&k=20&c=IIZaVsQl6mMcOPgyPrVm8ZlCSBwKdwWju4TTnM7BM4Q=);" ></div>
+              <div class="lower" style="background-image: url(https://media.istockphoto.com/id/1387134070/photo/smart-store-management-systems-concept.webp?a=1&b=1&s=612x612&w=0&k=20&c=_MwxECo4vjfPx-YHn1FTap40loIdTPWBz5Sh5ahxLdU=);"></div>
+
+           </div>
+        </section>
+
+      
+
+
+
+
+
+    </nav>
+    <section id="sec3">
+        <footer id=boxleval>
+            <div class="circl"></div>
+            <div class="rectangle"></div>
+            <div class="image"></div>
+            <div class="leval"></div>
+            <div class="c1"></div>
+            <div class="c2"></div>
+            <div id="boxleval2"> Let's Work Together</div>
+            <div id="boxleval3"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus laudantium nesciunt obcaecati voluptate quibusdam, dolores officia dignissimos illum ab, assumenda saepe inventore, culpa molestiae distinctio. Cum praesentium sint labore eligendi quibusdam sunt at delectus, recusandae officia assumenda fuga corporis.</p></div>
+            <div id="boxleval4">
+                <form>
+                    Name  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Email<br>
+                    <input  type="text" placeholder="Enter your Full Name" >
+                    
+                    
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name=""  id="" placeholder="Enter your Email" >
+                    <br>
+                    
+                    Subject<br>
+                    <input  type="subject" name="" id="subject" placeholder="What this About" ><br><br><br>
+                    Message<br>
+                    <textarea name="" id="text" placeholder=" Tell me about your project" cols="110" rows="10"></textarea>
+                    
+                     
+
+                </form>
+            </div>
+            <button id="range"> SEND MESSAGE</button>
+            <div id="a1">
+                <div id="a2">2025 Personal shape all right revesed</div>
+                <div id="a3">
+                    <a href="" style="margin-left: 28%;"> Privicy polcy 
+
+                    </a>
+                    <a href=""style="margin-left: 6%;"   > Trems of use&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    </a>
+                    <a href="" style="margin-top: 6%;" >Silemap&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    </a>
+                    <a href="" style="margin-top: 7%;"  > provided by 
+
+                    </a>
+                </div>
+            </div>
+
+           
+        </footer>
+
+    </section>
+    
+</body>
+</html>
